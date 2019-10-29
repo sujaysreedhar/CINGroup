@@ -1,0 +1,10 @@
+2019-10-29T17:29:24+00:00 CRITICAL Uncaught Error: Call to undefined function theme_temp_setup() in /Applications/XAMPP/xamppfiles/htdocs/cingroup/wp-content/themes/elessi-theme/functions.php:83
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cingroup/wp-settings.php(499): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/cingroup/wp-config.php(91): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/cingroup/wp-load.php(37): require_once('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/cingroup/wp-blog-header.php(13): require_once('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/cingroup/index.php(17): require('/Applications/X...')
+#5 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/cingroup/wp-content/themes/elessi-theme/functions.php on line 83
+
