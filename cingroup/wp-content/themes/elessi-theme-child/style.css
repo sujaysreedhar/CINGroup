@@ -1,12 +1,36 @@
 /*
-Theme Name: Elessi Theme Child
-Theme URI: http://elessi.nasatheme.com
-Description: This is a child theme for Elessi Theme
-Author: NasaTheme team
-Author URI: http://nasatheme.com
-Template: elessi-theme
 Version: 1.0
 */
 
+.title-heading h4{
+	font-weight: bold;
+	color: #13274B;
+}
 
-/*************** ADD YOUR CUSTOM CSS IN THIS AREA ***************/
+.member-image img {
+	width: 250px;
+    height: 250px;
+}
+
+#nasa-back-to-top {
+	background: #13274B;
+    color: #ffff;
+}
+
+#nasa-init-viewed {
+	display: none;
+}
+
+#top-bar {
+	padding: 0;
+    margin: 0;
+}
+
+#top-bar marquee{
+	padding: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #13274B;
+    height: 100%;
+}
+/*************** ADD YOUR CUSTOM CSS ***************/

@@ -8,3 +8,13 @@ Stack trace:
 #5 {main}
   thrown in /Applications/XAMPP/xamppfiles/htdocs/cingroup/wp-content/themes/elessi-theme/functions.php on line 83
 
+2019-10-29T19:53:37+00:00 CRITICAL Uncaught Error: Call to undefined function elessi_header_topbar() in /Applications/XAMPP/xamppfiles/htdocs/cingroup/wp-content/themes/elessi-theme/headers/header-structure-1.php:3
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/cingroup/wp-content/themes/elessi-theme/cores/nasa-theme-headers.php(331): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/cingroup/wp-includes/class-wp-hook.php(286): elessi_get_header_structure('')
+#2 /Applications/XAMPP/xamppfiles/htdocs/cingroup/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/cingroup/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/cingroup/wp-content/themes/elessi-theme/headers/header-main.php(22): do_action('nasa_header_str...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/cingroup/wp-content/themes/elessi-theme/cores/nasa-theme-headers.php(123): include_once('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/cingroup/wp-includes/class-w in /Applications/XAMPP/xamppfiles/htdocs/cingroup/wp-content/themes/elessi-theme/headers/header-structure-1.php on line 3
+

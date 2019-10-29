@@ -61,7 +61,7 @@ function nasa_sc_team_member($atts, $content = null) {
     $html .= $a['position'] != '' ? '<h3>' . $a['name'] . '</h3>' : '';
     $html .= $a['name'] != '' ? '<h3 class="member-position">' . $a['position'] . '</h3>' : '';
     
-    $html .= $a['email'] != '' ? '<p class="member-email"><span>' . esc_html__('Email:', 'nasa-core') . '</span> <a href="' . $a['email'] . '">' . $a['email'] . '</a></p>' : '';
+    $html .= $a['email'] != '' ? '<p class="member-email"><span>' . esc_html__('', 'nasa-core') . '</span> <a href="' . $a['email'] . '">' . $a['email'] . '</a></p>' : '';
     $html .= '<p class="member-desciption">' . do_shortcode($content) . '</p>';
     $html .= '</div>';
 

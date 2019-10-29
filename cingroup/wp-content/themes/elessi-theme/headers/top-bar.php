@@ -5,22 +5,23 @@ $class_topbar .= trim($topbar_left) != '' ? '' : ' hide-for-mobile';
 ?>
 <div class="nasa-topbar-wrap<?php echo esc_attr($class_topbar); ?>">
     <div id="top-bar" class="top-bar">
+    <marquee>Hoc HTML tai VietJack - Vi du cach su dung the marquee.</marquee>
         <?php if (!$mobile) : ?>
             <!-- Desktop | Responsive Top-bar -->
             <div class="row">
                 <div class="large-12 columns">
-                    <div class="left-text left rtl-right">
+                    <!-- <div class="left-text left rtl-right">
                         <div class="inner-block">
-                            <?php echo $topbar_left; ?>
+                            <?php  /* echo $topbar_left; */ ?>
                         </div>
                     </div>
                     <div class="right-text nasa-hide-for-mobile right rtl-left">
                         <div class="topbar-menu-container">
-                            <?php do_action('nasa_support_multi_languages'); ?>
-                            <?php elessi_get_menu('topbar-menu', 'nasa-topbar-menu', 1); ?>
-                            <?php echo elessi_tiny_account(true); ?>
+                            <?php /*do_action('nasa_support_multi_languages');*/ ?>
+                            <?php /*elessi_get_menu('topbar-menu', 'nasa-topbar-menu', 1); */?>
+                            <?php /*echo elessi_tiny_account(true); */?>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         <?php else : ?>

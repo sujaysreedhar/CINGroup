@@ -7846,7 +7846,8 @@ body input[type="submit"]:hover {
 }
 
 .nasa-left-main-header {
-  width: 70%;
+  /* width: 70%; */
+  width: 100%;
 }
 
 .nasa-right-main-header {

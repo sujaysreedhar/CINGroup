@@ -31,9 +31,9 @@
                                 </div>
 
                                 <!-- Group icon header -->
-                                <div class="nasa-right-main-header nasa-float-right">
-                                    <?php echo ($nasa_header_icons); ?>
-                                </div>
+                                <!-- <div class="nasa-right-main-header nasa-float-right">
+                                     <?php /* echo ($nasa_header_icons); */ ?> 
+                                </div> -->
                                 
                                 <div class="nasa-clear-both"></div>
                             </div>
